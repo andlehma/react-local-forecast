@@ -1,0 +1,42 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #404040;
+  text-align: center;
+}
+
+#container {
+  margin: 3em auto;
+  padding: 1em;
+  background-color: white;
+  display:inline-block;
+}
+
+.weather-card {
+  display: inline-block;
+  text-align: center;
+  margin: 0 1em;
+  padding: .5em;
+  background-color: white;
+}
+
+.today {
+  background-color: #FCFCFC;
+  border: 1px solid #CCCCCC;
+}
+
+.weather-card p {
+  display: inline;
+}
+
+.high-temp {
+  color: black;
+}
+
+.low-temp {
+  color: #808080;
+}
